@@ -21,4 +21,7 @@ export default defineConfig({
       128: 'logo/logo@128.png',
     },
   },
+  mpa: {
+    template: 'template/index.html',
+  },
 });
