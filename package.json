@@ -14,7 +14,7 @@
   "license": "MIT",
   "author": "Arvin Xu<arvinx@foxmail.com>",
   "scripts": {
-    "start": "max dev",
+    "start": "SOCKET_SERVER=http://localhost:8000/ max dev",
     "build": "max build",
     "zip": "pnpm run build && pnpm run zip:only",
     "zip:only": "ts-node ./scripts/zip",
